@@ -1,1 +1,0 @@
-import{b2 as e,ai as t,au as n}from"./index-2BTZRhkV.js";async function f(o,a,s={}){e.at=performance.now();try{return await o(),e.at=performance.now(),a&&t(a,"success",s),n(),!0}catch(r){return t(r instanceof Error?r.message:"操作没有成功","error"),!1}}export{f as a};
