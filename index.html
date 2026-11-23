@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preload" href="./fonts/title/shuheiti-00.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/inter-tight-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <title>Aspirations</title>
+    <!-- 「添加到主屏幕」：图标、全屏打开、状态栏、启动画面（iPhone 不读 manifest 里的启动画面，要一张张按屏幕尺寸写） -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./app-icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Aspirations" />
+    <meta name="application-name" content="Aspirations" />
+    <!-- 状态栏透明、内容铺到最上面：手机顶栏自己用 safe-area-inset-top 让出刘海那一截，并用模块色铺满 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- 只在手机宽度生效（桌面 Safari 的标签栏颜色不变）；进了别的模块，App.vue 会把它换成那个模块的颜色 -->
+    <meta name="theme-color" content="#DFA54D" media="(max-width: 860px)" />
+    <!-- 电脑宽度：装成 Chrome App 后窗口最上面那条标题栏用白色，和页头的白底连成一片（2026-11-16，原来一直是首页的黄色） -->
+    <meta name="theme-color" content="#FFFFFF" media="(min-width: 861px)" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-320x568@2x.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-375x667@2x.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-375x812@3x.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-390x844@3x.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-393x852@3x.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-402x874@3x.png" media="(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-414x896@2x.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-414x896@3x.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-428x926@3x.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-430x932@3x.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="./app-icons/splash-440x956@3x.png" media="(device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <script type="module" crossorigin src="./assets/index-QtlKV9W9.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BlQEeVG7.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

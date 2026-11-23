@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <!-- 品牌标“进阶”：墨色底上四个模块色各一层，垒成四级台阶，和侧栏左下角是同一个图形（docs/设计规范-新视觉语言.md 第 4 节）。
+       16 格画板，四边留 2，中间 12 格一层 3 格：16px 和 32px 下每条边都压在像素上。从下往上：琥珀、靛蓝、青、梅红。 -->
+  <rect width="16" height="16" rx="3.5" fill="#1F1C19"/>
+  <path d="M2 11h12v3H2Z" fill="#DFA54D"/>
+  <path d="M5 8h9v3H5Z" fill="#4C5CA7"/>
+  <path d="M8 5h6v3H8Z" fill="#168080"/>
+  <path d="M11 2h3v3h-3Z" fill="#833562"/>
+</svg>
