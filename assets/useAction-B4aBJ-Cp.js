@@ -1,0 +1,1 @@
+import{bg as e,aD as t,r as n}from"./index-NUCtBYRa.js";async function f(o,r,s={}){e.at=performance.now();try{return await o(),e.at=performance.now(),r&&t(r,"success",s),n(),!0}catch(a){return t(a instanceof Error?a.message:"操作没有成功","error"),!1}}export{f as a};
